@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B01A8821A454E800040A021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A8811A454E800040A021 /* AppDelegate.swift */; };
+		9B01A8851A454E800040A021 /* Nihonngo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A8831A454E800040A021 /* Nihonngo.xcdatamodeld */; };
+		9B01A8871A454E800040A021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A8861A454E800040A021 /* ViewController.swift */; };
+		9B01A88A1A454E800040A021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B01A8881A454E800040A021 /* Main.storyboard */; };
+		9B01A88C1A454E800040A021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B01A88B1A454E800040A021 /* Images.xcassets */; };
+		9B01A88F1A454E800040A021 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B01A88D1A454E800040A021 /* LaunchScreen.xib */; };
+		9B01A89B1A454E800040A021 /* NihonngoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A89A1A454E800040A021 /* NihonngoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B01A8951A454E800040A021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B01A8741A454E800040A021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B01A87B1A454E800040A021;
+			remoteInfo = Nihonngo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B01A87C1A454E800040A021 /* Nihonngo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nihonngo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B01A8801A454E800040A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B01A8811A454E800040A021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B01A8841A454E800040A021 /* Nihonngo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nihonngo.xcdatamodel; sourceTree = "<group>"; };
+		9B01A8861A454E800040A021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B01A8891A454E800040A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B01A88B1A454E800040A021 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B01A88E1A454E800040A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B01A8941A454E800040A021 /* NihonngoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NihonngoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B01A8991A454E800040A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B01A89A1A454E800040A021 /* NihonngoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonngoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B01A8791A454E800040A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B01A8911A454E800040A021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B01A8731A454E800040A021 = {
+			isa = PBXGroup;
+			children = (
+				9B01A87E1A454E800040A021 /* Nihonngo */,
+				9B01A8971A454E800040A021 /* NihonngoTests */,
+				9B01A87D1A454E800040A021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B01A87D1A454E800040A021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B01A87C1A454E800040A021 /* Nihonngo.app */,
+				9B01A8941A454E800040A021 /* NihonngoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B01A87E1A454E800040A021 /* Nihonngo */ = {
+			isa = PBXGroup;
+			children = (
+				9B01A8811A454E800040A021 /* AppDelegate.swift */,
+				9B01A8861A454E800040A021 /* ViewController.swift */,
+				9B01A8881A454E800040A021 /* Main.storyboard */,
+				9B01A88B1A454E800040A021 /* Images.xcassets */,
+				9B01A88D1A454E800040A021 /* LaunchScreen.xib */,
+				9B01A8831A454E800040A021 /* Nihonngo.xcdatamodeld */,
+				9B01A87F1A454E800040A021 /* Supporting Files */,
+			);
+			path = Nihonngo;
+			sourceTree = "<group>";
+		};
+		9B01A87F1A454E800040A021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B01A8801A454E800040A021 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B01A8971A454E800040A021 /* NihonngoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B01A89A1A454E800040A021 /* NihonngoTests.swift */,
+				9B01A8981A454E800040A021 /* Supporting Files */,
+			);
+			path = NihonngoTests;
+			sourceTree = "<group>";
+		};
+		9B01A8981A454E800040A021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B01A8991A454E800040A021 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B01A87B1A454E800040A021 /* Nihonngo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B01A89E1A454E800040A021 /* Build configuration list for PBXNativeTarget "Nihonngo" */;
+			buildPhases = (
+				9B01A8781A454E800040A021 /* Sources */,
+				9B01A8791A454E800040A021 /* Frameworks */,
+				9B01A87A1A454E800040A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nihonngo;
+			productName = Nihonngo;
+			productReference = 9B01A87C1A454E800040A021 /* Nihonngo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B01A8931A454E800040A021 /* NihonngoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B01A8A11A454E800040A021 /* Build configuration list for PBXNativeTarget "NihonngoTests" */;
+			buildPhases = (
+				9B01A8901A454E800040A021 /* Sources */,
+				9B01A8911A454E800040A021 /* Frameworks */,
+				9B01A8921A454E800040A021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B01A8961A454E800040A021 /* PBXTargetDependency */,
+			);
+			name = NihonngoTests;
+			productName = NihonngoTests;
+			productReference = 9B01A8941A454E800040A021 /* NihonngoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B01A8741A454E800040A021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ZhaoYuhan;
+				TargetAttributes = {
+					9B01A87B1A454E800040A021 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9B01A8931A454E800040A021 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9B01A87B1A454E800040A021;
+					};
+				};
+			};
+			buildConfigurationList = 9B01A8771A454E800040A021 /* Build configuration list for PBXProject "Nihonngo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B01A8731A454E800040A021;
+			productRefGroup = 9B01A87D1A454E800040A021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B01A87B1A454E800040A021 /* Nihonngo */,
+				9B01A8931A454E800040A021 /* NihonngoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B01A87A1A454E800040A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B01A88A1A454E800040A021 /* Main.storyboard in Resources */,
+				9B01A88F1A454E800040A021 /* LaunchScreen.xib in Resources */,
+				9B01A88C1A454E800040A021 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B01A8921A454E800040A021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B01A8781A454E800040A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B01A8871A454E800040A021 /* ViewController.swift in Sources */,
+				9B01A8821A454E800040A021 /* AppDelegate.swift in Sources */,
+				9B01A8851A454E800040A021 /* Nihonngo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B01A8901A454E800040A021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B01A89B1A454E800040A021 /* NihonngoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B01A8961A454E800040A021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B01A87B1A454E800040A021 /* Nihonngo */;
+			targetProxy = 9B01A8951A454E800040A021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B01A8881A454E800040A021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B01A8891A454E800040A021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B01A88D1A454E800040A021 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B01A88E1A454E800040A021 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B01A89C1A454E800040A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B01A89D1A454E800040A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B01A89F1A454E800040A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nihonngo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B01A8A01A454E800040A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nihonngo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B01A8A21A454E800040A021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NihonngoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nihonngo.app/Nihonngo";
+			};
+			name = Debug;
+		};
+		9B01A8A31A454E800040A021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NihonngoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nihonngo.app/Nihonngo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B01A8771A454E800040A021 /* Build configuration list for PBXProject "Nihonngo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B01A89C1A454E800040A021 /* Debug */,
+				9B01A89D1A454E800040A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B01A89E1A454E800040A021 /* Build configuration list for PBXNativeTarget "Nihonngo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B01A89F1A454E800040A021 /* Debug */,
+				9B01A8A01A454E800040A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B01A8A11A454E800040A021 /* Build configuration list for PBXNativeTarget "NihonngoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B01A8A21A454E800040A021 /* Debug */,
+				9B01A8A31A454E800040A021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B01A8831A454E800040A021 /* Nihonngo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B01A8841A454E800040A021 /* Nihonngo.xcdatamodel */,
+			);
+			currentVersion = 9B01A8841A454E800040A021 /* Nihonngo.xcdatamodel */;
+			path = Nihonngo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B01A8741A454E800040A021 /* Project object */;
+}
