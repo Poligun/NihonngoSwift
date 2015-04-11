@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import CoreData
+
+class Meaning: NSManagedObject {
+    
+    @NSManaged var word: Word
+    @NSManaged var index: Int
+    @NSManaged var meaning: String
+    @NSManaged var examples: NSOrderedSet
+
+}

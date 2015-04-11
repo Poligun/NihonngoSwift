@@ -9,11 +9,53 @@
 /* Begin PBXBuildFile section */
 		9B01A8821A454E800040A021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A8811A454E800040A021 /* AppDelegate.swift */; };
 		9B01A8851A454E800040A021 /* Nihonngo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A8831A454E800040A021 /* Nihonngo.xcdatamodeld */; };
-		9B01A8871A454E800040A021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A8861A454E800040A021 /* ViewController.swift */; };
-		9B01A88A1A454E800040A021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B01A8881A454E800040A021 /* Main.storyboard */; };
 		9B01A88C1A454E800040A021 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B01A88B1A454E800040A021 /* Images.xcassets */; };
-		9B01A88F1A454E800040A021 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B01A88D1A454E800040A021 /* LaunchScreen.xib */; };
 		9B01A89B1A454E800040A021 /* NihonngoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B01A89A1A454E800040A021 /* NihonngoTests.swift */; };
+		9B0748801A5CC33F00B96E3B /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07487F1A5CC33F00B96E3B /* WordListViewController.swift */; };
+		9B0748831A5D117500B96E3B /* WordTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0748821A5D117500B96E3B /* WordTypeCell.swift */; };
+		9B1F47EC1A5B996800B2F2DA /* MeaningPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F47EB1A5B996800B2F2DA /* MeaningPreviewCell.swift */; };
+		9B38582A1A5E4ABA008AB2C1 /* EditMeaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3858291A5E4ABA008AB2C1 /* EditMeaningViewController.swift */; };
+		9B38582E1A5E6FC0008AB2C1 /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38582D1A5E6FC0008AB2C1 /* TextViewCell.swift */; };
+		9B38F65B1A4ABDAE00AD6FB7 /* Meaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38F65A1A4ABDAE00AD6FB7 /* Meaning.swift */; };
+		9B399B641A47AE2800BD7F71 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B399B631A47AE2800BD7F71 /* Word.swift */; };
+		9B399B661A47B09000BD7F71 /* WordFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B399B651A47B09000BD7F71 /* WordFetcher.swift */; };
+		9B4672A61A61CD7400B94AC6 /* EditTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4672A51A61CD7400B94AC6 /* EditTypeViewController.swift */; };
+		9B4672A91A6247C400B94AC6 /* SelectionTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4672A81A6247C400B94AC6 /* SelectionTestViewController.swift */; };
+		9B4672AB1A62491C00B94AC6 /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4672AA1A62491C00B94AC6 /* OptionCell.swift */; };
+		9B4E19241A60F1A80039DD4A /* SearchBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E19231A60F1A80039DD4A /* SearchBarExtension.swift */; };
+		9B4E19261A60F6270039DD4A /* FetchWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4E19251A60F6270039DD4A /* FetchWordViewController.swift */; };
+		9B71CE661A576AE700D0F34D /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B71CE651A576AE700D0F34D /* WordCell.swift */; };
+		9B728FB71A60FD6B00FEEF47 /* FetchedWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B728FB61A60FD6B00FEEF47 /* FetchedWordCell.swift */; };
+		9B9302621A68B80A004FF57D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9302611A68B80A004FF57D /* Theme.swift */; };
+		9B9302641A68BA37004FF57D /* BatchFetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9302631A68BA37004FF57D /* BatchFetchViewController.swift */; };
+		9B95BA2A1A577BF0002D544C /* TypePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95BA291A577BF0002D544C /* TypePickerCell.swift */; };
+		9B994AFC1A56499D00D3869C /* EditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B994AFB1A56499D00D3869C /* EditCell.swift */; };
+		9B9A0C061A624F2D00A0FDA6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A0C051A624F2D00A0FDA6 /* StringExtension.swift */; };
+		9B9A0C081A62557200A0FDA6 /* SelectionTestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A0C071A62557200A0FDA6 /* SelectionTestGenerator.swift */; };
+		9B9A0C0A1A6255F600A0FDA6 /* KanaOptionGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A0C091A6255F600A0FDA6 /* KanaOptionGenerator.swift */; };
+		9B9A0C0C1A626B6500A0FDA6 /* SelectionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A0C0B1A626B6500A0FDA6 /* SelectionTest.swift */; };
+		9B9A0C0E1A626E9200A0FDA6 /* ArrayExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A0C0D1A626E9200A0FDA6 /* ArrayExtesion.swift */; };
+		9B9B70B21A64F6EB00635CF0 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9B70B11A64F6EB00635CF0 /* LoadingCell.swift */; };
+		9BA3BD601A68E15100ED7B95 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3BD5F1A68E15100ED7B95 /* BaseViewController.swift */; };
+		9BA3BD621A690CE100ED7B95 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3BD611A690CE100ED7B95 /* BaseCell.swift */; };
+		9BA9E68F1A46B0B600229BA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9E68E1A46B0B600229BA5 /* Default-568h@2x.png */; };
+		9BAAB4451A4E4FB9005C9248 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAB4441A4E4FB9005C9248 /* Type.swift */; };
+		9BAAB4471A4E509D005C9248 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAB4461A4E509D005C9248 /* Example.swift */; };
+		9BAAB4491A4E763F005C9248 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAB4481A4E763F005C9248 /* DataStore.swift */; };
+		9BAE70611A505F8700A6782D /* TypeMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE70601A505F8700A6782D /* TypeMapping.swift */; };
+		9BAE70671A53620D00A6782D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE70661A53620D00A6782D /* MenuViewController.swift */; };
+		9BAE70691A53797700A6782D /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE70681A53797700A6782D /* SlideViewController.swift */; };
+		9BAE70711A53C56C00A6782D /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE70701A53C56C00A6782D /* MenuItemCell.swift */; };
+		9BAE70771A53F57B00A6782D /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE70761A53F57B00A6782D /* WordViewController.swift */; };
+		9BAE707D1A54146C00A6782D /* MeaningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE707C1A54146C00A6782D /* MeaningCell.swift */; };
+		9BAE70811A54153B00A6782D /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE70801A54153B00A6782D /* ExampleCell.swift */; };
+		9BC74A4E1A5F9788000E1427 /* ExamplePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC74A4D1A5F9788000E1427 /* ExamplePreviewCell.swift */; };
+		9BC74A501A5FAB01000E1427 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC74A4F1A5FAB01000E1427 /* LabelCell.swift */; };
+		9BC74A521A5FAC08000E1427 /* MeaningPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC74A511A5FAC08000E1427 /* MeaningPreviewViewController.swift */; };
+		9BC74A541A5FAF58000E1427 /* EditExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC74A531A5FAF58000E1427 /* EditExampleViewController.swift */; };
+		9BC74A561A5FC112000E1427 /* SwipeableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC74A551A5FC112000E1427 /* SwipeableCell.swift */; };
+		9BCBF69E1A561CF0004C5B9A /* EditWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBF69D1A561CF0004C5B9A /* EditWordViewController.swift */; };
+		9BD2A2E21A5CBB640050777E /* LayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2A2E11A5CBB640050777E /* LayoutConstraintExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +73,55 @@
 		9B01A8801A454E800040A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B01A8811A454E800040A021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B01A8841A454E800040A021 /* Nihonngo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nihonngo.xcdatamodel; sourceTree = "<group>"; };
-		9B01A8861A454E800040A021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B01A8891A454E800040A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B01A88B1A454E800040A021 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9B01A88E1A454E800040A021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B01A8941A454E800040A021 /* NihonngoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NihonngoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B01A8991A454E800040A021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B01A89A1A454E800040A021 /* NihonngoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonngoTests.swift; sourceTree = "<group>"; };
+		9B07487F1A5CC33F00B96E3B /* WordListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
+		9B0748821A5D117500B96E3B /* WordTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordTypeCell.swift; sourceTree = "<group>"; };
+		9B1F47EB1A5B996800B2F2DA /* MeaningPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeaningPreviewCell.swift; sourceTree = "<group>"; };
+		9B3858291A5E4ABA008AB2C1 /* EditMeaningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMeaningViewController.swift; sourceTree = "<group>"; };
+		9B38582D1A5E6FC0008AB2C1 /* TextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		9B38F65A1A4ABDAE00AD6FB7 /* Meaning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meaning.swift; sourceTree = "<group>"; };
+		9B399B631A47AE2800BD7F71 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		9B399B651A47B09000BD7F71 /* WordFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordFetcher.swift; sourceTree = "<group>"; };
+		9B4672A51A61CD7400B94AC6 /* EditTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTypeViewController.swift; sourceTree = "<group>"; };
+		9B4672A81A6247C400B94AC6 /* SelectionTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTestViewController.swift; sourceTree = "<group>"; };
+		9B4672AA1A62491C00B94AC6 /* OptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		9B4E19231A60F1A80039DD4A /* SearchBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarExtension.swift; sourceTree = "<group>"; };
+		9B4E19251A60F6270039DD4A /* FetchWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchWordViewController.swift; sourceTree = "<group>"; };
+		9B71CE651A576AE700D0F34D /* WordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
+		9B728FB61A60FD6B00FEEF47 /* FetchedWordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedWordCell.swift; sourceTree = "<group>"; };
+		9B9302611A68B80A004FF57D /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9B9302631A68BA37004FF57D /* BatchFetchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchFetchViewController.swift; sourceTree = "<group>"; };
+		9B95BA291A577BF0002D544C /* TypePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypePickerCell.swift; sourceTree = "<group>"; };
+		9B994AFB1A56499D00D3869C /* EditCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCell.swift; sourceTree = "<group>"; };
+		9B9A0C051A624F2D00A0FDA6 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9B9A0C071A62557200A0FDA6 /* SelectionTestGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTestGenerator.swift; sourceTree = "<group>"; };
+		9B9A0C091A6255F600A0FDA6 /* KanaOptionGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaOptionGenerator.swift; sourceTree = "<group>"; };
+		9B9A0C0B1A626B6500A0FDA6 /* SelectionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTest.swift; sourceTree = "<group>"; };
+		9B9A0C0D1A626E9200A0FDA6 /* ArrayExtesion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtesion.swift; sourceTree = "<group>"; };
+		9B9B70B11A64F6EB00635CF0 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		9BA3BD5F1A68E15100ED7B95 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9BA3BD611A690CE100ED7B95 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		9BA9E68E1A46B0B600229BA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9BAAB4441A4E4FB9005C9248 /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		9BAAB4461A4E509D005C9248 /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		9BAAB4481A4E763F005C9248 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		9BAE70601A505F8700A6782D /* TypeMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeMapping.swift; sourceTree = "<group>"; };
+		9BAE70661A53620D00A6782D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		9BAE70681A53797700A6782D /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
+		9BAE70701A53C56C00A6782D /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		9BAE70761A53F57B00A6782D /* WordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		9BAE707C1A54146C00A6782D /* MeaningCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeaningCell.swift; sourceTree = "<group>"; };
+		9BAE70801A54153B00A6782D /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		9BC74A4D1A5F9788000E1427 /* ExamplePreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplePreviewCell.swift; sourceTree = "<group>"; };
+		9BC74A4F1A5FAB01000E1427 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		9BC74A511A5FAC08000E1427 /* MeaningPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeaningPreviewViewController.swift; sourceTree = "<group>"; };
+		9BC74A531A5FAF58000E1427 /* EditExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditExampleViewController.swift; sourceTree = "<group>"; };
+		9BC74A551A5FC112000E1427 /* SwipeableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeableCell.swift; sourceTree = "<group>"; };
+		9BCBF69D1A561CF0004C5B9A /* EditWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWordViewController.swift; sourceTree = "<group>"; };
+		9BD2A2E11A5CBB640050777E /* LayoutConstraintExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraintExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +145,7 @@
 		9B01A8731A454E800040A021 = {
 			isa = PBXGroup;
 			children = (
+				9BA9E68E1A46B0B600229BA5 /* Default-568h@2x.png */,
 				9B01A87E1A454E800040A021 /* Nihonngo */,
 				9B01A8971A454E800040A021 /* NihonngoTests */,
 				9B01A87D1A454E800040A021 /* Products */,
@@ -79,11 +164,17 @@
 		9B01A87E1A454E800040A021 /* Nihonngo */ = {
 			isa = PBXGroup;
 			children = (
+				9B399B671A47D8AA00BD7F71 /* Model */,
+				9B0748811A5CC39300B96E3B /* TableViewCell */,
+				9B0748841A5D1B7700B96E3B /* ViewController */,
+				9B4672A71A62477C00B94AC6 /* Testing */,
 				9B01A8811A454E800040A021 /* AppDelegate.swift */,
-				9B01A8861A454E800040A021 /* ViewController.swift */,
-				9B01A8881A454E800040A021 /* Main.storyboard */,
+				9B9302611A68B80A004FF57D /* Theme.swift */,
+				9BD2A2E11A5CBB640050777E /* LayoutConstraintExtension.swift */,
+				9B4E19231A60F1A80039DD4A /* SearchBarExtension.swift */,
+				9B9A0C051A624F2D00A0FDA6 /* StringExtension.swift */,
+				9B9A0C0D1A626E9200A0FDA6 /* ArrayExtesion.swift */,
 				9B01A88B1A454E800040A021 /* Images.xcassets */,
-				9B01A88D1A454E800040A021 /* LaunchScreen.xib */,
 				9B01A8831A454E800040A021 /* Nihonngo.xcdatamodeld */,
 				9B01A87F1A454E800040A021 /* Supporting Files */,
 			);
@@ -113,6 +204,73 @@
 				9B01A8991A454E800040A021 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B0748811A5CC39300B96E3B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3BD611A690CE100ED7B95 /* BaseCell.swift */,
+				9BC74A551A5FC112000E1427 /* SwipeableCell.swift */,
+				9BAE70701A53C56C00A6782D /* MenuItemCell.swift */,
+				9BC74A4F1A5FAB01000E1427 /* LabelCell.swift */,
+				9B71CE651A576AE700D0F34D /* WordCell.swift */,
+				9BAE707C1A54146C00A6782D /* MeaningCell.swift */,
+				9BAE70801A54153B00A6782D /* ExampleCell.swift */,
+				9B994AFB1A56499D00D3869C /* EditCell.swift */,
+				9B0748821A5D117500B96E3B /* WordTypeCell.swift */,
+				9B95BA291A577BF0002D544C /* TypePickerCell.swift */,
+				9B1F47EB1A5B996800B2F2DA /* MeaningPreviewCell.swift */,
+				9BC74A4D1A5F9788000E1427 /* ExamplePreviewCell.swift */,
+				9B38582D1A5E6FC0008AB2C1 /* TextViewCell.swift */,
+				9B728FB61A60FD6B00FEEF47 /* FetchedWordCell.swift */,
+				9B4672AA1A62491C00B94AC6 /* OptionCell.swift */,
+				9B9B70B11A64F6EB00635CF0 /* LoadingCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		9B0748841A5D1B7700B96E3B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BAE70681A53797700A6782D /* SlideViewController.swift */,
+				9BAE70661A53620D00A6782D /* MenuViewController.swift */,
+				9BA3BD5F1A68E15100ED7B95 /* BaseViewController.swift */,
+				9B07487F1A5CC33F00B96E3B /* WordListViewController.swift */,
+				9B4E19251A60F6270039DD4A /* FetchWordViewController.swift */,
+				9B9302631A68BA37004FF57D /* BatchFetchViewController.swift */,
+				9BAE70761A53F57B00A6782D /* WordViewController.swift */,
+				9BCBF69D1A561CF0004C5B9A /* EditWordViewController.swift */,
+				9B4672A51A61CD7400B94AC6 /* EditTypeViewController.swift */,
+				9BC74A511A5FAC08000E1427 /* MeaningPreviewViewController.swift */,
+				9B3858291A5E4ABA008AB2C1 /* EditMeaningViewController.swift */,
+				9BC74A531A5FAF58000E1427 /* EditExampleViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9B399B671A47D8AA00BD7F71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B399B631A47AE2800BD7F71 /* Word.swift */,
+				9BAAB4441A4E4FB9005C9248 /* Type.swift */,
+				9BAE70601A505F8700A6782D /* TypeMapping.swift */,
+				9B38F65A1A4ABDAE00AD6FB7 /* Meaning.swift */,
+				9BAAB4461A4E509D005C9248 /* Example.swift */,
+				9B399B651A47B09000BD7F71 /* WordFetcher.swift */,
+				9BAAB4481A4E763F005C9248 /* DataStore.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9B4672A71A62477C00B94AC6 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A0C091A6255F600A0FDA6 /* KanaOptionGenerator.swift */,
+				9B9A0C0B1A626B6500A0FDA6 /* SelectionTest.swift */,
+				9B9A0C071A62557200A0FDA6 /* SelectionTestGenerator.swift */,
+				9B4672A81A6247C400B94AC6 /* SelectionTestViewController.swift */,
+			);
+			name = Testing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +322,7 @@
 				TargetAttributes = {
 					9B01A87B1A454E800040A021 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = N45UCN442L;
 					};
 					9B01A8931A454E800040A021 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -195,9 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B01A88A1A454E800040A021 /* Main.storyboard in Resources */,
-				9B01A88F1A454E800040A021 /* LaunchScreen.xib in Resources */,
 				9B01A88C1A454E800040A021 /* Images.xcassets in Resources */,
+				9BA9E68F1A46B0B600229BA5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +373,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B01A8871A454E800040A021 /* ViewController.swift in Sources */,
+				9BAE707D1A54146C00A6782D /* MeaningCell.swift in Sources */,
+				9BD2A2E21A5CBB640050777E /* LayoutConstraintExtension.swift in Sources */,
+				9BC74A501A5FAB01000E1427 /* LabelCell.swift in Sources */,
+				9B9A0C061A624F2D00A0FDA6 /* StringExtension.swift in Sources */,
+				9BCBF69E1A561CF0004C5B9A /* EditWordViewController.swift in Sources */,
+				9BA3BD601A68E15100ED7B95 /* BaseViewController.swift in Sources */,
+				9B0748831A5D117500B96E3B /* WordTypeCell.swift in Sources */,
+				9B399B661A47B09000BD7F71 /* WordFetcher.swift in Sources */,
+				9B4E19241A60F1A80039DD4A /* SearchBarExtension.swift in Sources */,
+				9B1F47EC1A5B996800B2F2DA /* MeaningPreviewCell.swift in Sources */,
+				9B4672AB1A62491C00B94AC6 /* OptionCell.swift in Sources */,
+				9B994AFC1A56499D00D3869C /* EditCell.swift in Sources */,
 				9B01A8821A454E800040A021 /* AppDelegate.swift in Sources */,
+				9B9A0C0A1A6255F600A0FDA6 /* KanaOptionGenerator.swift in Sources */,
+				9BAE70771A53F57B00A6782D /* WordViewController.swift in Sources */,
+				9BAE70691A53797700A6782D /* SlideViewController.swift in Sources */,
+				9BC74A521A5FAC08000E1427 /* MeaningPreviewViewController.swift in Sources */,
+				9B728FB71A60FD6B00FEEF47 /* FetchedWordCell.swift in Sources */,
+				9B95BA2A1A577BF0002D544C /* TypePickerCell.swift in Sources */,
+				9B9B70B21A64F6EB00635CF0 /* LoadingCell.swift in Sources */,
+				9B399B641A47AE2800BD7F71 /* Word.swift in Sources */,
 				9B01A8851A454E800040A021 /* Nihonngo.xcdatamodeld in Sources */,
+				9BAAB4471A4E509D005C9248 /* Example.swift in Sources */,
+				9B0748801A5CC33F00B96E3B /* WordListViewController.swift in Sources */,
+				9B71CE661A576AE700D0F34D /* WordCell.swift in Sources */,
+				9B9302641A68BA37004FF57D /* BatchFetchViewController.swift in Sources */,
+				9BA3BD621A690CE100ED7B95 /* BaseCell.swift in Sources */,
+				9B9A0C081A62557200A0FDA6 /* SelectionTestGenerator.swift in Sources */,
+				9B4672A91A6247C400B94AC6 /* SelectionTestViewController.swift in Sources */,
+				9BAE70811A54153B00A6782D /* ExampleCell.swift in Sources */,
+				9B38582E1A5E6FC0008AB2C1 /* TextViewCell.swift in Sources */,
+				9BC74A561A5FC112000E1427 /* SwipeableCell.swift in Sources */,
+				9B9A0C0C1A626B6500A0FDA6 /* SelectionTest.swift in Sources */,
+				9B9302621A68B80A004FF57D /* Theme.swift in Sources */,
+				9B9A0C0E1A626E9200A0FDA6 /* ArrayExtesion.swift in Sources */,
+				9BAAB4451A4E4FB9005C9248 /* Type.swift in Sources */,
+				9BAE70711A53C56C00A6782D /* MenuItemCell.swift in Sources */,
+				9B38582A1A5E4ABA008AB2C1 /* EditMeaningViewController.swift in Sources */,
+				9BAE70671A53620D00A6782D /* MenuViewController.swift in Sources */,
+				9BAAB4491A4E763F005C9248 /* DataStore.swift in Sources */,
+				9BC74A4E1A5F9788000E1427 /* ExamplePreviewCell.swift in Sources */,
+				9BAE70611A505F8700A6782D /* TypeMapping.swift in Sources */,
+				9B4E19261A60F6270039DD4A /* FetchWordViewController.swift in Sources */,
+				9B38F65B1A4ABDAE00AD6FB7 /* Meaning.swift in Sources */,
+				9B4672A61A61CD7400B94AC6 /* EditTypeViewController.swift in Sources */,
+				9BC74A541A5FAF58000E1427 /* EditExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,25 +439,6 @@
 			targetProxy = 9B01A8951A454E800040A021 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9B01A8881A454E800040A021 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B01A8891A454E800040A021 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9B01A88D1A454E800040A021 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B01A88E1A454E800040A021 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9B01A89C1A454E800040A021 /* Debug */ = {
@@ -340,9 +522,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Nihonngo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,9 +538,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Nihonngo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +603,7 @@
 				9B01A8A01A454E800040A021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B01A8A11A454E800040A021 /* Build configuration list for PBXNativeTarget "NihonngoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +612,7 @@
 				9B01A8A31A454E800040A021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

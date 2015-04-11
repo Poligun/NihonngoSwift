@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Example" representedClassName="Nihonngo.Example" syncable="YES">
+        <attribute name="example" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="translation" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meaning" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meaning" inverseName="examples" inverseEntity="Meaning" syncable="YES"/>
+    </entity>
+    <entity name="Meaning" representedClassName="Nihonngo.Meaning" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="meaning" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="examples" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Example" inverseName="meaning" inverseEntity="Example" syncable="YES"/>
+        <relationship name="word" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Word" inverseName="meanings" inverseEntity="Word" syncable="YES"/>
+    </entity>
+    <entity name="Type" representedClassName="Nihonngo.Type" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="word" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Word" inverseName="types" inverseEntity="Word" syncable="YES"/>
+    </entity>
+    <entity name="Word" representedClassName="Nihonngo.Word" syncable="YES">
+        <attribute name="kana" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="meanings" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Meaning" inverseName="word" inverseEntity="Meaning" syncable="YES"/>
+        <relationship name="types" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Type" inverseName="word" inverseEntity="Type" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Example" positionX="-128" positionY="-45" width="128" height="105"/>
+        <element name="Meaning" positionX="-108" positionY="-162" width="128" height="103"/>
+        <element name="Type" positionX="-288" positionY="-49" width="128" height="73"/>
+        <element name="Word" positionX="-279" positionY="-169" width="128" height="103"/>
+    </elements>
 </model>

@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class SelectionTest {
+
+    var description: String
+    var options = [String]()
+    var rightOptionIndex = -1
+    
+    init(description: String) {
+        self.description = description
+    }
+}
